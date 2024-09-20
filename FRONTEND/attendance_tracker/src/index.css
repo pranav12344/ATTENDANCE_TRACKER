@@ -1,0 +1,345 @@
+/* General Layout */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+}
+
+/* Header */
+.header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.head {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.divider {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+/* Buttons */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+.b1 {
+  margin: 10px 0;
+}
+
+/* Footer */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+
+/* Week-timeyable */
+.week {
+  background-color: rgba(42, 249, 249, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.week ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.week .day {
+  display: block;
+  padding: 12px 15px;
+  margin: 10px 0;
+  background-color: #f0f8ff;
+  color: #007acc;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.week .day:hover {
+  background-color: #e0f7fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.week .day li {
+  font-weight: bold;
+}
+
+/* attendance-percentage */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+  border: 1px solid #dddddd;
+}
+
+th, td {
+  padding: 12px 15px;
+}
+
+th {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* timetable subjectwise */
+.week {
+  background-color: rgba(42, 249, 249, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day {
+  display: block;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #f0f8ff;
+  color: #007acc;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: #e0f7fa;
+}
+
+.day-details {
+  margin-top: 20px;
+}
+
+.day-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day-details th, .day-details td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.day-details th {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+}
+
+.day-details tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.day-details tr:hover {
+  background-color: #e0f7fa;
+}
+
+.day-details button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #007acc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.day-details button:hover {
+  background-color: #005f8a;
+}
+
+
+/* back button */
+.backbut {
+  display: inline-block;
+  background-color: #2c9593;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.backbut:hover {
+  background-color: #53b0c0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.backbut:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 150, 136, 0.5);
+}
+
+/* Marking attendance */
+/* General container styles */
+.mark-attendance-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: #333;
+}
+
+table td {
+  background-color: #fff;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+  transform: scale(1.2);
+  margin: 5px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+  .mark-attendance-container {
+    padding: 10px;
+  }
+
+  table th, table td {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+}
+
+.save{
+  display: block;
+  padding: 5px;
+  background-color: #53b0c0bc;
+  border: 2px solid hsl(0, 0%, 80%);
+  box-shadow: hsl(0, 0%, 0%,0.3);
+}
+
+.save:hover{
+  background-color: #55b4c5;
+}
